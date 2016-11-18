@@ -6,3 +6,5 @@ A simple bash script which inspires you with a daily quote every time you open t
 ## Steps to install
 * Download dailyquote.sh script
 * make the script executable by running command "chmod +x path_to_script"
+* Add it path to the script to .bashrc file in your home directory
+* You are good to go
