@@ -2,5 +2,4 @@
 A simple bash script which inspires you with a daily quote every time you open terminal!
 
 Get a daily Quote everyday when you open terminal.
-
-![Get a daily Quote everyday when you open terminal](https://www.dropbox.com/s/ml71v3hqhrxssle/Screen%20Shot%202016-11-18%20at%205.51.13%20PM.png)
+![Get a daily Quote everyday when you open terminal](https://s11.postimg.org/we2a9yyn7/Screen_Shot_2016_11_18_at_5_51_13_PM.png)
