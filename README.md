@@ -1,5 +1,9 @@
 # inspireU
+## Description
 A simple bash script which inspires you with a daily quote every time you open terminal!
 
 Get a daily Quote everyday when you open terminal.
-![Get a daily Quote everyday when you open terminal](https://s11.postimg.org/4p5j8h6s3/screen_shot_2016_11_18_at_5_51.png)
+![Get a daily Quote everyday when you open terminal](https://s4.postimg.org/b93a0y4p9/Screen_Shot_2016_11_18_at_7_07_58_PM.png)
+## Steps to install
+* Download dailyquote.sh script
+* make the script executable by running command "chmod +x path_to_script"
