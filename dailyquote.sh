@@ -1,6 +1,8 @@
 #! /bin/bash
 # load cachequote
-source `dirname $0`/cachequote.sh
+if [ -f /tmp/cachequote.sh ]; then
+	source /tmp/cachequote.sh
+fi
 if [ ! -z $DATE ] && [ $DATE == `date +%Y-%m-%d` ] && [ ! -z "$QUOTE" ]; then
 		echo "Daily Quote"
 		echo $QUOTE
@@ -16,9 +18,11 @@ if [ $? -eq 0 ]; then
 	#output the quote
 	echo "Daily Quote"
 	echo $quoteoutput
-	rm cachequote.sh
-	touch cachequote.sh
-	chmod +x cachequote.sh
-	echo "DATE=`date +%Y-%m-%d`" >> cachequote.sh
-	echo QUOTE=`echo $quoteoutput` >> cachequote.sh
+	if [ -f /tmp/cachequote.sh ]; then
+		rm /tmp/cachequote.sh
+	fi
+	touch /tmp/cachequote.sh
+	chmod +x /tmp/cachequote.sh
+	echo "DATE=`date +%Y-%m-%d`" >> /tmp/cachequote.sh
+	echo QUOTE=`echo $quoteoutput` >> /tmp/cachequote.sh
 fi
